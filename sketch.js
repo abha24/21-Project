@@ -48,7 +48,7 @@ function draw() {
     }
     if(block3.isTouching(ball) && ball.bounceOff(block3)){
         ball.shapeColor = "red";
-        music.play();
+    
     }
     if(block4.isTouching(ball) && ball.bounceOff(block4)){
         ball.shapeColor = "green";
